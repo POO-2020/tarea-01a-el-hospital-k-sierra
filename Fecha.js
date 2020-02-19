@@ -1,5 +1,5 @@
 class Fecha{
-    constructor(dia, mes, año, años, meses, semanas, dias)
+    constructor(dia, mes, año)
     {
         this.fecha = new Date (año, mes + 1, dia);
         this.diaSemana = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
