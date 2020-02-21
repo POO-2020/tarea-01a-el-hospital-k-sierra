@@ -16,5 +16,3 @@ class Pacientes {
     return `${this.nombre.getNombreCompleto()}, ${this.fecha.getFecha()}, ${this.numeroTel}`;
   }
 }
-let paciente1 = new Pacientes(new Nombre("Karla", "Sierra", "Rodriguez"),new Fecha(5, 6, 2020), 3123095330);
-console.log(paciente1.getPerfil());
