@@ -41,10 +41,3 @@ export default class Fecha {
     return dia;
   }
 }
-let fecha1 = new Fecha(5, 5, 2001);
-console.log(fecha1.getMeses());
-console.log(fecha1.getAños());
-console.log(fecha1.getSemanas());
-console.log(fecha1.getDias());
-console.log(fecha1.getFecha());
-console.log(fecha1.getDiaFecha());
