@@ -1,4 +1,4 @@
-class Tiempo{
+export default class Tiempo{
     /**
      * 
      * @param {number} hora 
@@ -22,6 +22,3 @@ class Tiempo{
         }
     }
 }
-    let horario1 = new Tiempo(11,33,"PM");
-    console.log(horario1.getFormato12());
-    console.log(horario1.getFormato24());
