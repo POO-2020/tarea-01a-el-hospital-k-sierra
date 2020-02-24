@@ -1,5 +1,5 @@
 import Nombre from "./Nombre.js";
-class Doctor{
+export default class Doctor{
     /**
      * 
      * @param {number} cedula 
