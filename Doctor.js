@@ -14,6 +14,6 @@ class Doctor{
         this.telefono = telefono;
     }
     getPerfil(){
-        return `${this.cedula}, ${this.especialidad}, ${this.nombre.getNombreCompleto()}`;
+        return `${this.cedula}, ${this.especialidad}, ${this.nombre.getNombreCompleto()}, ${ this.telefono}`;
     }
 }
