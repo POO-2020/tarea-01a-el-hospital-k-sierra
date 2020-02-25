@@ -21,7 +21,3 @@ export default class Nombre{
         return(`${this.nombre.charAt(0)}.${this.apellidoP.charAt(0)}.${this.apellidoM.charAt(0)}`);
     }
 }
-let nombre1 = new Nombre("Karla", "Sierra", "Rodriguez");
-console.log(nombre1.getNombreCompleto());
-console.log(nombre1.getApellidoNombre());
-console.log(nombre1.getIniciales());
