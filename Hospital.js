@@ -5,6 +5,11 @@ import Paciente from "./Paciente.js";
 import Doctor from "./Doctor.js";
 import Cita from "./Cita.js";
 export default class Hospital {
+    /**
+     * 
+     * @param {string} nombre 
+     * @param {string} direccion 
+     */
     constructor(nombre, direccion){
         this.nombre = nombre;
         this.direccion = direccion;
